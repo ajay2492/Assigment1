@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Demo" verbose="1" >
+    <listeners>
+        <listener class-name="comm.ExtentReportListener.ExtentReporterNG" />
+    </listeners>
+    <test name="Positive flow">
+
+        <classes>
+            <class name="com.zestmoney.assigment3.Amazon.AmazonSearchResultTest" />
+        </classes>
+    </test>
+    <test name="Positive flow2">
+
+        <classes>
+            <class name="com.zestmoney.assigment3.FlipKart.FlipkartSearchResultTest" />
+        </classes>
+    </test>
+</suite>
